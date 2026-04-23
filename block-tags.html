@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <title>Ejemplos de etiquetas block</title>
+</head>
+<body class="p-4">
+    <header class="mb-4">
+        <h1>Etiquetas block (bloque)</h1>
+        <nav>
+            <a href="index.html" class="btn btn-outline-primary">Volver al índice</a>
+            <a href="inline-tags.html" class="btn btn-link">Ver inline</a>
+            <a href="form-tags.html" class="btn btn-link">Ver formularios</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="mb-3">
+            <h2>Secciones y artículos</h2>
+            <article class="border p-3 mb-2">
+                <h3>Artículo de ejemplo</h3>
+                <p>Los elementos <code>&lt;section&gt;</code> y <code>&lt;article&gt;</code> son contenedores semánticos de bloque.</p>
+            </article>
+            <aside class="alert alert-light">Aside: información relacionada</aside>
+        </section>
+
+        <section class="mb-3">
+            <h2>Párrafos y listas</h2>
+            <p>Un párrafo (<code>&lt;p&gt;</code>) es un elemento de bloque básico. Se pueden encadenar varios párrafos.</p>
+
+            <p>Listas no ordenadas:</p>
+            <ul>
+                <li>Elemento uno</li>
+                <li>Elemento dos</li>
+                <li>Elemento tres</li>
+            </ul>
+
+            <p>Listas ordenadas:</p>
+            <ol>
+                <li>Primero</li>
+                <li>Segundo</li>
+                <li>Tercero</li>
+            </ol>
+
+            <p>Listas de definición:</p>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Lenguaje de marcado</dd>
+                <dt>CSS</dt>
+                <dd>Hojas de estilo</dd>
+            </dl>
+        </section>
+
+        <section class="mb-3">
+            <h2>Tablas</h2>
+            <p>Ejemplo de tabla con thead, tbody y tfoot:</p>
+            <table class="table table-striped">
+                <thead>
+                    <tr><th>Nombre</th><th>Edad</th><th>Ciudad</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Ana</td><td>23</td><td>Buenos Aires</td></tr>
+                    <tr><td>Pablo</td><td>30</td><td>Córdoba</td></tr>
+                </tbody>
+                <tfoot>
+                    <tr><td colspan="3">Tabla de ejemplo</td></tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section class="mb-3">
+            <h2>Blockquote, pre y código</h2>
+            <blockquote class="blockquote">
+                <p>“Este es un ejemplo de blockquote para citar un texto o una fuente.”</p>
+                <footer class="blockquote-footer">Autor <cite title="Source Title">Fuente</cite></footer>
+            </blockquote>
+
+            <pre class="p-2 bg-light"><code>&lt;div&gt;Código preformateado&lt;/div&gt;</code></pre>
+        </section>
+
+        <section class="mb-3">
+            <h2>Figure y figuras</h2>
+            <figure class="figure">
+                <img src="img/Club_Atlético_River_Plate_logo.svg.webp" class="figure-img img-fluid rounded" alt="Logo" style="width:120px;">
+                <figcaption class="figure-caption">Figura: logo de ejemplo.</figcaption>
+            </figure>
+        </section>
+
+        <section class="mb-3">
+            <h2>Detalles y resumen</h2>
+            <details>
+                <summary>Mostrar más información</summary>
+                <p>Contenido adicional dentro de un elemento <code>&lt;details&gt;</code>.</p>
+            </details>
+        </section>
+
+        <section class="mb-3">
+            <h2>Address y footer</h2>
+            <address>
+                Curso: Ingeniería II<br>
+                Autor: Enzo C.<br>
+                <a href="mailto:enzo@example.com">enzo@example.com</a>
+            </address>
+        </section>
+    </main>
+
+    <footer class="mt-4">
+        <hr>
+        <p class="small">Página de ejemplo con etiquetas block. <a href="index.html">Volver al índice</a></p>
+    </footer>
+</body>
+</html>
