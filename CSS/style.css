@@ -1,0 +1,39 @@
+label {
+    font-style: italic;
+    color:lab(100% 0.01 -0.01);
+    background-color:rgb(0, 0, 0)
+}
+fieldset {
+    background-color:rgb(245, 185, 96);
+}
+        
+.titulo {
+    background-color: rgb(235, 155, 51);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, 0.5);
+}
+#email {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.3);
+}
+tr th{
+    background-color: rgba(0, 0, 0, 0.696);
+    color: rgb(255, 255, 255);
+}
+p::first-letter {
+    font-size:32px;
+    color: rojo;
+}
+body > p {
+    color:rgb(255, 1, 1);
+}
+button:hover {
+    background-color:black;
+    color:white;
+}
+.importante::before {
+    content:"(☞*ヮ*)☞";
+}
